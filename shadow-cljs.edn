@@ -1,0 +1,8 @@
+{:source-paths ["src"]
+ :dependencies [[reagent "0.7.0" :exclusions [cljsjs/react
+                                              cljsjs/react-dom
+                                              cljsjs/react-dom-server
+                                              cljsjs/create-react-class]]
+                [re-frame "0.10.5"]]
+ :builds       {:app {:target     :npm-module
+                      :output-dir "node_modules/shadow-cljs"}}}
