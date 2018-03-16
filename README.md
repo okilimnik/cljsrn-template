@@ -21,11 +21,26 @@ yarn install global shadow-cljs
 shadow-cljs watch app
 
 # wait for the first compile to finish then start the rn packager
+```
+
+# React Native packager
+
+```
+# you can run packager like this
 yarn start
 # or
 yarn run ios
 # or
 yarn run android
+
+# but sometimes default tunnel works slow
+# you can fix it by running with exp
+npm install -g exp
+exp start --lan
+# and in another shell
+exp ios
+# or
+exp android
 ```
 
 ## Table of Contents
