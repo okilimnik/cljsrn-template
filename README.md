@@ -3,7 +3,7 @@ This project was bootstrapped with [Create React Native App](https://github.com/
 Below you'll find information about performing common tasks. The most recent version of this guide is available [here](https://github.com/react-community/create-react-native-app/blob/master/react-native-scripts/template/README.md).
 
 
-#### shadow-cljs
+### shadow-cljs
 First, rename your project folder and app name in package.json with your project name.
 Update clojure namespace of src/demo folder as you wish.
 Update AppNavigator import in App.js according to the namespace changes.
@@ -26,7 +26,7 @@ shadow-cljs watch app
 
 Wait for the first compile to finish then start the rn packager.
 
-#### React Native packager
+### React Native packager
 You can run packager like this:
 ```
 yarn start
