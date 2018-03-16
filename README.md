@@ -20,6 +20,8 @@ shadow-cljs watch app
 yarn start
 # or
 yarn run ios
+# or
+yarn run android
 ```
 
 ## Table of Contents
