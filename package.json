@@ -1,5 +1,5 @@
 {
-  "name": "tpm-rn",
+  "name": "cljsrn-template",
   "version": "0.1.0",
   "private": true,
   "devDependencies": {

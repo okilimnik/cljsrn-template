@@ -6,6 +6,10 @@
 # shadow-cljs
 .shadow-cljs/
 
+# IntelliJ IDEA
+.idea/
+*.iml
+
 # dependencies
 /node_modules
 
