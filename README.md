@@ -3,43 +3,55 @@ This project was bootstrapped with [Create React Native App](https://github.com/
 Below you'll find information about performing common tasks. The most recent version of this guide is available [here](https://github.com/react-community/create-react-native-app/blob/master/react-native-scripts/template/README.md).
 
 
-# shadow-cljs
+#### shadow-cljs
+First, rename your project folder and app name in package.json with your project name.
+Update clojure namespace of src/demo folder as you wish.
+Update AppNavigator import in App.js according to the namespace changes.
+
+Install deps via yarn or npm:
 
 ```
-# first rename your project folder and app name in package.json with your project name
-# update clojure namespace of src/demo folder as you wish
-# update AppNavigator import in App.js according to the namespace changes
-
-# install deps via yarn or npm
 yarn
-
-# launch shadow-cljs locally
+```
+Launch shadow-cljs locally:
+```
 ./node_modules/.bin/shadow-cljs watch app
+```
 
-# global is optional but nicer to use
+Global is optional but nicer to use:
+```
 yarn install global shadow-cljs
 shadow-cljs watch app
-
-# wait for the first compile to finish then start the rn packager
 ```
 
-# React Native packager
+Wait for the first compile to finish then start the rn packager.
 
+#### React Native packager
+You can run packager like this:
 ```
-# you can run packager like this
 yarn start
-# or
+```
+or:
+```
 yarn run ios
-# or
+```
+or:
+```
 yarn run android
+```
 
-# but sometimes default tunnel works slow
-# you can fix it by running with exp
+But sometimes default tunnel works slow.
+You can fix it by running with exp.
+```
 npm install -g exp
 exp start --lan
-# and in another shell
+```
+And in another shell:
+```
 exp ios
-# or
+```
+or:
+```
 exp android
 ```
 
