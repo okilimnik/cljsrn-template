@@ -6,7 +6,11 @@ Below you'll find information about performing common tasks. The most recent ver
 # shadow-cljs
 
 ```
-# first install deps via yarn or npm
+# first rename your project folder and app name in package.json with your project name
+# update clojure namespace of src/demo folder as you wish
+# update AppNavigator import in App.js according to the namespace changes
+
+# install deps via yarn or npm
 yarn
 
 # launch shadow-cljs locally
